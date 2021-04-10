@@ -1,0 +1,89 @@
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    background: rgb(25, 22, 34);
+    display: flex;
+    justify-content: center;
+}
+
+.button-images {
+    max-width: 950px;
+    margin: 75px auto;
+}
+
+.button-container {
+    background: rgba(7, 188, 233, 0.7);
+    position: relative;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.button-container A:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%
+}
+
+.button-container a {
+    transition: all 1s ease-out;
+    border-radius: 50%;
+    vertical-align: middle;
+    padding: 5%;
+    color: #FFFFFF;
+    position: absolute;
+    font-weight: 700;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 90%;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-container A:hover {
+    background: none;
+    border: none;
+    opacity: 0;
+}
+
+.button-container img {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+
+/*Columns*/
+
+.one_half {
+    display: inline-block;
+    position: relative;
+    margin-right: 4%;
+    min-height: 1px;
+    height: auto !important;
+}
+
+.one_half .one_half {
+    margin-right: 8.3333%;
+    width: 45.8333%;
+}
+
+.one_half .one_third {
+    margin-right: 8.3333%;
+    width: 27.7778%;
+}
+
+.one_half .two_third {
+    margin-right: 8.3333%;
+    width: 63.8889%;
+}
+
+.one_half,
+.two_fourth {
+    width: 48%;
+}
